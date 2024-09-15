@@ -18,15 +18,18 @@ I/0  Guard is designed to:
 
 ## Key Features
 
-- **Centralized Command Management**: Automatically traps all terminal commands and rereoute commands executions them via a centralized script.
+- **Centralized Command Management**: Automatically traps all terminal commands and reroute commands and executions them via a centralized script.
 - **Process Monitoring**: Monitors background tasks and prevents redundant or conflicting executions.
 - **Efficient Resource Usage**: Optimizes CPU, memory, and other resources to avoid bottlenecks and ensure smooth operation.
 - **Extensible and Customizable**: Easily adapt the scripts to fit your specific environment or project requirements.  Three scripts will be executed on the fly, and the work will begin immediately.
 
 ## USE CASE
 
-USE CASE
-Developers working with the Django framework often encounter bottlenecked environments that cause delays in project completion, as I have experienced myself. This project aims to balance resource usage, creating a controlled environment that optimizes resource allocation and allows developers to work efficiently without encountering bottlenecks.
+As I have experienced, developers working with the Django framework often encounter bottlenecked environments that cause project completion delays. This project aims to balance resource usage, creating a controlled environment that optimizes resource allocation and allows developers to work efficiently without encountering bottlenecks.
+
+## Executing  these scripts is straightforward.   
+1. Git clones the scripts into your home directory, which will reside inside your account desktop's root directory (for example, on Ubuntu). These scripts should still reside in my directory `/home/faron/.local/lib/io_gateway.`
+2. I wouldn't not recommend this to be run systemwide but it effectively perform well on user 
 
 Contributions are welcome! If you have suggestions for improvements or find any issues, please open a pull request or submit a bug on the GitHub repository.
 
